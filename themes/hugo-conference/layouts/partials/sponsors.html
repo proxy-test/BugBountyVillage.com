@@ -1,0 +1,34 @@
+<h2 class="section-title">{{ .titles.sponsors }}</h2>
+<p>Contact Us for sponsoring Bug Bounty Village </p>
+<div class="sponsors-list">
+{{ range $sponsor := .sponsors }}
+<div class="sponsor-container">
+    
+    <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+        <img src="{{ .logo }}" alt="{{ .name }}" class="sponsor-photo" itemprop="image">
+    </a>
+    
+</div>
+{{ end }}
+</div>
+<!-- <style>
+.sponsors-list{
+  display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.sponsor-container{
+  width: 48%;
+}
+.sponsor-photo{
+  height: 100%;
+}
+.sponsor--link{
+  width: 100%;
+}
+</style> -->
+<!-- website: bugbountyvillage.com
+Twitter:   https://twitter.com/bugbountyvillag
+Facebook:  https://www.facebook.com/bugbountyvillage
+Instagram: https://www.instagram.com/bugbounty_village/
+Linkedin:  https://linkedin.com/company/bug-bounty-village  -->

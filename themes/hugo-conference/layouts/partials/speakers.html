@@ -1,0 +1,26 @@
+<h2 class="section-title">{{ .titles.speakers }}</h2>
+
+<div class="speakers-list">
+{{ range $speaker := .speakers }}
+
+<div class="speaker-container">
+    <img class="speaker-photo" src="{{ .logo }}" alt="{{ .name }}" itemprop="image">
+    <p class="speakers-bio">{{ .name }}</p>
+    <p class="speakers-bio">{{ .bio }}</p>
+
+  <div class="speaker-profile">
+      <a href="{{ .twitterUrl }}" class="speaker--link" itemprop="url" target="_blank">
+          <i class="fab fa-twitter fa-lg" style="color:#00acee;"></i>
+      </a>
+      <a href="{{ .linkdinUrl }}" class="speaker--link" itemprop="url" target="_blank">
+          <i class="fab fa-linkedin fa-lg" style="color:#0e76a8;"></i>
+      </a>
+  </div>
+
+</div>
+{{ end }}
+</div>
+
+<!-- <script>
+ScrollReveal().reveal('.speaker-container');
+</script> -->

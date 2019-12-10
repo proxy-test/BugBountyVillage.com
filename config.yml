@@ -1,0 +1,113 @@
+baseurl: ""
+title: "Bug Bounty Villege"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Bug Bounty Village"
+  Description: "Bug Bounty Villege"
+  Date: "March 3, 4 & 5, 2019"
+  Venue: "International Centre Goa"
+  City:  "Goa"
+  # Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - cfp
+    - awards
+    - speakers
+    - teams
+    - schedule
+    - sponsors
+    - location
+    #- partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    schedule: "Schedule"
+    location: "Location"
+    cfp: "CFP"    
+#    ctf: "CTF"
+    awards: "Awards"
+    speakers: "Speakers"
+    teams: "Team"
+#     schedule: "CTF"
+    sponsors: "Sponsors"
+#    partners: "Partners"
+    #contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Call for Speakers"
+    link: "https://docs.google.com/forms/d/1llB6TcU7S5f0hn81_xoluzzL1kfsXLBpNK0T97FqjVA"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  #ForkButton:
+  #  repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "OwaspSeasides"
+      logo: "/img/os.png"
+      url: "https://www.owaspseasides.com"
+#    - name: "Hugo"
+#      logo: "/img/owasp.png"
+#      url: "https://www.owasp.org"
+
+  # The entire schedule
+  Schedule:
+    - name: ""
+      time: ""
+    
+  Teams:
+    - name: "Praveen Yadav"
+      logo: "/img/praveenyadav.jpg"
+      linkdinUrl: "https://www.linkedin.com/in/parveen1015/"
+      twitterUrl: "https://twitter.com/parveen1015"
+  
+    - name: "Prashant K V"
+      logo: "/img/prashantkv.jpg"
+      linkdinUrl: "https://www.linkedin.com/in/prashant-venkatesh-99018999"
+      twitterUrl: "https://twitter.com/goodbestguy"
+
+
+  Speakers:
+
+
+    - name: "Praveen Yadav"
+      logo: "/img/praveenyadav.jpg"
+      linkdinUrl: "https://www.linkedin.com/in/parveen1015/"
+      twitterUrl: "https://twitter.com/parveen1015"
+      bio: "Security Researcher"
+    - name: "Prashant K V"
+      logo: "/img/prashantkv.jpg"
+      bio: "Security Researcher"
+      linkdinUrl: "https://www.linkedin.com/in/prashant-venkatesh-99018999"
+      twitterUrl: "https://twitter.com/goodbestguy"
+
+    # - name: "Vandana Verma"
+    #   logo: "/img/vandanaverma.jpg"
+    #   url: "https://www.linkedin.com/in/vandana-verma/"
+    #   bio: "lorem10"
+    # - name: "Jason Haddix"
+    #   logo: "/img/jasonhaddix.jpg"
+    #   url: "https://www.linkedin.com/in/jhaddix/"
+    #   bio: "lorem10"
+    # - name: "Jason Haddix"
+    #   logo: "/img/jasonhaddix.jpg"
+    #   url: "https://www.linkedin.com/in/jhaddix/"
+    #   bio: "lorem10"
+    # - name: "Jason Haddix"
+    #   logo: "/img/jasonhaddix.jpg"
+    #   url: "https://www.linkedin.com/in/jhaddix/"
+    #   bio: "lorem10"
