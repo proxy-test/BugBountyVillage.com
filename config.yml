@@ -49,7 +49,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Call for Speakers"
-    link: "https://docs.google.com/forms/d/1llB6TcU7S5f0hn81_xoluzzL1kfsXLBpNK0T97FqjVA"
+    link: "https://docs.google.com/forms/d/1L6r-h9_ENMnx9Auzaj7JteVQOuNQrPZ-4FSlJEk_xSY"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
