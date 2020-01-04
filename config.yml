@@ -20,7 +20,8 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - cfp
+    - cfr
+    - cftw
     - awards
     - speakers
     - teams
@@ -35,7 +36,8 @@ params:
     about: "About"
     schedule: "Schedule"
     location: "Location"
-    cfp: "CFP"    
+    cfr: "Call for Reports"
+    cftw: "Call for Talks/ Workshops" 
 #    ctf: "CTF"
     awards: "Awards"
     speakers: "Speakers"
@@ -58,11 +60,19 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "OwaspSeasides"
-      logo: "/img/os.png"
+      logo: "/img/OWASP-final.png"
       url: "https://www.owaspseasides.com"
-#    - name: "Hugo"
-#      logo: "/img/owasp.png"
-#      url: "https://www.owasp.org"
+    - name: "PentesterLab"
+      logo: "/img/pentesterlab.png"
+      url: "https://pentesterlab.com/"
+    - name: "Hak5"
+      logo: "/img/images.png"
+      url: "https://shop.hak5.org/"
+
+
+  #  - name: "hak5"
+  #    logo: "/img/os.png"
+  #    url: "https://shop.hak5.org/"
 
   # The entire schedule
   Schedule:
@@ -80,6 +90,11 @@ params:
       linkdinUrl: "https://www.linkedin.com/in/prashant-venkatesh-99018999"
       twitterUrl: "https://twitter.com/goodbestguy"
 
+    - name: "Narendra Kumar"
+      logo: "/img/Narendra.jpeg"
+      linkdinUrl: "https://www.linkedin.com/in/narendra-k-0981b7104/"
+      twitterUrl: "https://twitter.com/0ddhawk"
+
 
   Speakers:
 
@@ -89,11 +104,11 @@ params:
       linkdinUrl: "https://www.linkedin.com/in/parveen1015/"
       twitterUrl: "https://twitter.com/parveen1015"
       bio: "Security Researcher"
-    - name: "Prashant K V"
-      logo: "/img/prashantkv.jpg"
-      bio: "Security Researcher"
-      linkdinUrl: "https://www.linkedin.com/in/prashant-venkatesh-99018999"
-      twitterUrl: "https://twitter.com/goodbestguy"
+    # - name: "Prashant K V"
+    #   logo: "/img/prashantkv.jpg"
+    #   bio: "Security Researcher"
+    #   linkdinUrl: "https://www.linkedin.com/in/prashant-venkatesh-99018999"
+    #   twitterUrl: "https://twitter.com/goodbestguy"
 
     # - name: "Vandana Verma"
     #   logo: "/img/vandanaverma.jpg"

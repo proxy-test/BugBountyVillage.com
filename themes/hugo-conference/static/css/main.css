@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  /* list-style: none; */
   border: 0;
   text-decoration: none;
 }
@@ -351,7 +351,7 @@ nav {
   margin-bottom: 50px;
   font-size: 2em;
   letter-spacing: -0.02em;
-  color: ;
+  /* color: ; */
 }
 .call-action-area .price {
   font-size: 4em;
@@ -477,22 +477,27 @@ nav {
 .sponsor--link,
 .partner-link {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 220px;
   text-align: center;
   vertical-align: middle;
   line-height: 150px;
 }
 .sponsors-list{
   display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 .sponsor-container{
-  width: 48%;
+  width: 45%;
+  margin: 1rem;
+  /* border: 1px solid blue; */
 }
 .sponsor-photo{
+  width: 100%;
   height: 100%;
+  /* border: 1px solid violet; */
 }
 a.sponsor--link{
   width: 100%;
@@ -1036,4 +1041,10 @@ nav {
 }
 .tagline{
   color: #78441E;
+}
+.color-test{
+  color: saddlebrown;
+}
+.space-left{
+  margin-left: 2rem;
 }
