@@ -36,7 +36,7 @@ params:
     about: "About"
     schedule: "Schedule"
     location: "Location"
-    cfr: "Call for Reports"
+    cfr: "Call for Nominations"
     cftw: "Call for Talks/ Workshops" 
 #    ctf: "CTF"
     awards: "Awards"
