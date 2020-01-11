@@ -8,7 +8,7 @@ GoogleAnalytics: ""
 params:
   # Conference info
   Name: "Bug Bounty Village"
-  Description: "Bug Bounty Villege"
+  Description: "Bug Bounty Village"
   Date: "March 3, 4 & 5, 2019"
   Venue: "International Centre Goa"
   City:  "Goa"
