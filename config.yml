@@ -94,7 +94,11 @@ params:
       logo: "/img/Narendra.jpeg"
       linkdinUrl: "https://www.linkedin.com/in/narendra-k-0981b7104/"
       twitterUrl: "https://twitter.com/0ddhawk"
-
+    
+    - name: "Pankaj Upadhyay"
+      logo: "/img/pankaj_upadhyay.jpg"
+      linkdinUrl: "https://www.linkedin.com/in/p4nk4j/"
+      twitterUrl: "https://twitter.com/lazyhack3r"
 
   Speakers:
 
