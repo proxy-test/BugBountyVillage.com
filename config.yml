@@ -24,6 +24,7 @@ params:
     - cftw
     - awards
     - speakers
+    - review
     - teams
     - schedule
     - sponsors
@@ -42,6 +43,7 @@ params:
     awards: "Awards"
     speakers: "Speakers"
     teams: "Team"
+    review: "Review Committee"
 #     schedule: "CTF"
     sponsors: "Sponsors"
 #    partners: "Partners"
@@ -130,3 +132,7 @@ params:
     #   logo: "/img/jasonhaddix.jpg"
     #   url: "https://www.linkedin.com/in/jhaddix/"
     #   bio: "lorem10"
+  Review:
+    - name: "Eduardo Vela"
+      logo: "/img/speaker1.jpg"
+      twitterUrl: "https://twitter.com/sirdarckcat"
