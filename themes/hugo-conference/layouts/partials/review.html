@@ -14,9 +14,12 @@
           <a href="{{ .twitterUrl }}" class="speaker--link" itemprop="url" target="_blank">
               <i class="fab fa-twitter fa-lg" style="color:#00acee;"></i>
           </a>
+          {{ if .linkdinUrl }}
           <a href="{{ .linkdinUrl }}" class="speaker--link" itemprop="url" target="_blank">
-              <i class="fab fa-linkedin fa-lg" style="color:#0e76a8;"></i>
-          </a>
+            <i class="fab fa-linkedin fa-lg" style="color:#0e76a8;"></i>
+            </a>
+          {{ end }}
+
       </div>
     
     </div>
