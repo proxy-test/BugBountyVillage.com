@@ -103,13 +103,76 @@ params:
       twitterUrl: "https://twitter.com/lazyhack3r"
 
   Speakers:
+    - name: "Nimisha Dugalya"
+      photo: "/img/a4.jpg"
+      bio: "The workshop is hands-on white-box testing of a php-based application. Most of the server-side web applications are made up of Php, this workshop will introduce the attendees to some common vulnerabilities in php applications. This session will be a ctf based session where the related challenges will be hosted and the participants who are well ahead of the basic topics can solve them while others catch up. Topics that will be covered in this session are - common php coding mistakes, code reviewing for loopholes, server-side request forgery, deserialization vulnerability.
+After the session participants will have a clear understanding of how to analyze a web application for php bugs."
+      presentation:
+        title: "Exploiting Server-Side Applications"
+      # link:
+      #   href: "http://twitter.com/linus"
+      #   text: "@linus"
+
+    - name: "Amol Naik"
+      photo: "/img/a2.jpg"
+      bio: "This course focus on findings & exploiting bugs in leading browsers. This hands-on training will help participants to develop their own fuzzers.
+The course also covers domain of the fuzzing, frameworks and analysing the crashes. Bugs like Use-After-Free & Heap Corruptions/Overflow will be
+discussed as case study with in-depth analysis using debuggers."
+      presentation:
+        title: "XTREME BROWSER FUZZING"
+      # link:
+      #   href: "http://twitter.com/linus"
+      #   text: "@linus"
+
+    - name: "Shikhar Joshi"
+      photo: "/img/a1.jpg"
+      bio: " What to expect in the session:
+
+Overview of Docker (demo):
+
+- Creating a docker image user dockerfile
+- Uploading the docker image to docker hub
+- Creating a container from the image
+- Getting a shell within the container
+- Linux namespace
+
+Overview of kubernetes architecture (theory/demo if time persists)
+
+- API Server
+- etcd
+- Controller
+  - Scheduler
+- Kubelet
+- Nodes
+
+Creation of kubernetes resources (demo)
+
+- pods
+- namespaces
+- replication controllers/sets
+- services
+- roles
+
+Exploiting kubernetes cluster (demo)
+
+- Understanding authentication and authorisation in kubernetes cluster
+- Understanding kubernetes secrets
+- Exploiting the cluster via misconfigured RBAC
+- Exploiting the cluster via exposed resources"
+      presentation:
+        title: "Kubernetes - Overview and Exploitation"
+      # link:
+      #   href: "http://twitter.com/linus"
+      #   text: "@linus"
 
 
-    - name: "Praveen Yadav"
-      logo: "/img/praveenyadav.jpg"
-      linkdinUrl: "https://www.linkedin.com/in/parveen1015/"
-      twitterUrl: "https://twitter.com/parveen1015"
-      bio: "Security Researcher"
+
+
+    # - name: "Praveen Yadav"
+    #   logo: "/img/praveenyadav.jpg"
+    #   linkdinUrl: "https://www.linkedin.com/in/parveen1015/"
+    #   twitterUrl: "https://twitter.com/parveen1015"
+    #   bio: "Security Researcher"
     # - name: "Prashant K V"
     #   logo: "/img/prashantkv.jpg"
     #   bio: "Security Researcher"

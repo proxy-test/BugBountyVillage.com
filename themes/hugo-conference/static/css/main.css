@@ -1034,6 +1034,10 @@ nav {
     
  
   }
+  .speaker-photo{
+    height: 60%;
+
+  }
 }
 .second{
   color: #78441E;

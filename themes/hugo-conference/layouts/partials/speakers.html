@@ -1,5 +1,35 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
+<ul >         
+{{ range $speaker := .speakers }}
+  <li class="speakers-items" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    {{ with .photo }}
+      <span class="speaker-photos">
+        <img class="photos" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+      </span>
+    {{ end }}
+
+    <h3 class="speech-titles">
+      {{ with .presentation.time }}
+      <span class="speech-time">{{ . }}</span>
+      {{ end }}
+      <span>{{ .presentation.title }}</span>
+    </h3>
+
+    <h3 class="speakers-names">{{ .name }}
+      {{ with .link }}
+      <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+      {{ end }}
+    </h3>
+    <p class="speakers-bios">{{ .bio }}</p>
+  </li>
+{{ end }}
+</ul>
+
+
+
+<!-- <h2 class="section-title">{{ .titles.speakers }}</h2>
+
 <div class="speakers-list">
 {{ range $speaker := .speakers }}
 
@@ -19,8 +49,51 @@
 
 </div>
 {{ end }}
-</div>
+</div> -->
 
-<!-- <script>
-ScrollReveal().reveal('.speaker-container');
-</script> -->
+<style>
+  .speakers-items {
+  position: relative;
+  min-height: 180px;
+  padding-left: 180px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.speaker-photos .photos {
+    border-radius: 50%;
+}
+.photos{
+  max-width: 100%;
+    position: relative;
+    top: -1px;
+}
+.speaker-photos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.speech-titles {
+  padding-top: 10px;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.speech-times {
+  font-size: 18px;
+  padding: 10px 15px;
+  letter-spacing: -0.03em;
+}
+.speakers-names {
+  font-size: 1.6em;
+}
+.speakers-items p {
+  font-size: 1.4em;
+}
+</style>
+
+<!-- <style>
+
+
+</style> -->
