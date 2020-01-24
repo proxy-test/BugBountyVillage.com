@@ -3,7 +3,8 @@ title: "Bug Bounty Village "
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: ""
+googleAnalytics: "UA-156890968-1"
+
 
 params:
   # Conference info
