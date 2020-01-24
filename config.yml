@@ -200,6 +200,12 @@ Exploiting kubernetes cluster (demo)
       bio: "Google"
       logo: "/img/speaker1.jpg"
       twitterUrl: "https://twitter.com/sirdarckcat"
+    - name: "Laurie Mercer"
+      bio: "HackerOne"
+      logo: "/img/uXDMmoc7_400x400.jpg"
+      twitterUrl: "https://twitter.com/MonkeyBanking"
+
+
     - name: "Pranav Hivarekar"
       logo: "/img/pran.jpeg"
       twitterUrl: "https://twitter.com/HivarekarPranav"

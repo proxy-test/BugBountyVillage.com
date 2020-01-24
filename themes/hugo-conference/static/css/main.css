@@ -981,7 +981,7 @@ nav {
   }
   .speakers-list{
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 45px;
     grid-template-rows: repeat(1,1fr);
     grid-template-columns: repeat(3,1fr);
     /* FOR 3x3 */
