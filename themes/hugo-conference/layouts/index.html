@@ -12,7 +12,7 @@
   {{ .Hugo.Generator }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
   <!-- <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"> -->
   <script src="https://kit.fontawesome.com/5bf443d8c7.js" crossorigin="anonymous"></script>
@@ -22,7 +22,9 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156890968-1"></script>
 <script>
@@ -114,6 +116,12 @@
   <script src="/js/main.js"></script>
   {{ end }}
   {{ end }}
- 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200, // offset (in px) from the original trigger point
+    delay: 300, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 </body>
 </html>

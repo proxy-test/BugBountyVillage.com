@@ -1,8 +1,8 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
-<ul >         
+<ul>         
 {{ range $speaker := .speakers }}
-  <li class="speakers-items" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+  <li data-aos="fade-in" class="speakers-items" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
       <span class="speaker-photos">
         <img class="photos" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">

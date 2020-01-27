@@ -5,7 +5,8 @@
 <div class="speakers-list">
     {{ range $team := .teams }}
     
-    <div class="speaker-container ">
+    
+    <div data-aos="zoom-in" class="speaker-container ">
         <img class="speaker-photo" src="{{ .logo }}" alt="{{ .name }}" itemprop="image">
         <p class="speakers-bio">{{ .name }}</p>
         <p class="speakers-bio">{{ .bio }}</p>
