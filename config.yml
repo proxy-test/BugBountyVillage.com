@@ -114,13 +114,13 @@ After the session participants will have a clear understanding of how to analyze
       #   href: "http://twitter.com/linus"
       #   text: "@linus"
 
-    - name: "Amol Naik"
-      photo: "/img/a2.jpg"
-      bio: "This course focus on findings & exploiting bugs in leading browsers. This hands-on training will help participants to develop their own fuzzers.
-The course also covers domain of the fuzzing, frameworks and analysing the crashes. Bugs like Use-After-Free & Heap Corruptions/Overflow will be
-discussed as case study with in-depth analysis using debuggers."
-      presentation:
-        title: "XTREME BROWSER FUZZING"
+    # - name: "Amol Naik"
+#       photo: "/img/a2.jpg"
+#       bio: "This course focus on findings & exploiting bugs in leading browsers. This hands-on training will help participants to develop their own fuzzers.
+# The course also covers domain of the fuzzing, frameworks and analysing the crashes. Bugs like Use-After-Free & Heap Corruptions/Overflow will be
+# discussed as case study with in-depth analysis using debuggers."
+#       presentation:
+#         title: "XTREME BROWSER FUZZING"
       # link:
       #   href: "http://twitter.com/linus"
       #   text: "@linus"
