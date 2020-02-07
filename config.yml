@@ -104,10 +104,22 @@ params:
       twitterUrl: "https://twitter.com/lazyhack3r"
 
   Speakers:
+    - name: "Martin Straka"
+      photo: "/img/straka.jpg"
+      bio: "Team will cover the Google VRP programs, some interesting facts and new things added this year to our VRP programs and also the best bugs Google received from our researchers community in the last year."
+      registerLink: "https://docs.google.com/forms/d/1yD7ernsDlRfBp6LbH1dBofVqBxw02LnMcKRbJ_R1t8A/"
+      registerLinkname: "Register"
+      presentation:
+        title: "Exploiting Server-Side Applications"
+      # link:
+      #   href: "http://twitter.com/linus"
+      #   text: "@linus"
     - name: "Nimisha Dugalya"
-      photo: "/img/a4.jpg"
+      photo: "/img/Nimisha.JPG"
       bio: "The workshop is hands-on white-box testing of a php-based application. Most of the server-side web applications are made up of Php, this workshop will introduce the attendees to some common vulnerabilities in php applications. This session will be a ctf based session where the related challenges will be hosted and the participants who are well ahead of the basic topics can solve them while others catch up. Topics that will be covered in this session are - common php coding mistakes, code reviewing for loopholes, server-side request forgery, deserialization vulnerability.
 After the session participants will have a clear understanding of how to analyze a web application for php bugs."
+      registerLink: "https://docs.google.com/forms/d/1Q2dFAYr9L-l7NmOKrkMBGEdjFlIULjxvObIRnM4eoRY/"
+      registerLinkname: "Register"
       presentation:
         title: "Exploiting Server-Side Applications"
       # link:
@@ -126,7 +138,7 @@ After the session participants will have a clear understanding of how to analyze
       #   text: "@linus"
 
     - name: "Shikhar Joshi"
-      photo: "/img/a1.jpg"
+      photo: "/img/Shikhar_Joshi (1).jpg"
       bio: " What to expect in the session:
 
 Overview of Docker (demo):
@@ -160,12 +172,21 @@ Exploiting kubernetes cluster (demo)
 - Understanding kubernetes secrets
 - Exploiting the cluster via misconfigured RBAC
 - Exploiting the cluster via exposed resources"
+
+      registerLink: "https://docs.google.com/forms/d/14c6sFqRakrorbf3LCb5OkF8jUN77Ri153gqalUESuYM/"
+      registerLinkname: "Register"
       presentation:
         title: "Kubernetes - Overview and Exploitation"
       # link:
       #   href: "http://twitter.com/linus"
       #   text: "@linus"
-
+    - name: "Dhamotharan"
+      photo: "/img/dhamu.jpeg"
+      bio: "Pre-authentication arbitrary file read vulnerability (CVE-2019-11510) that revealed sensitive information like VPN client credentials, private SSH keys, and session cookies. They showed how this information was used to compromise a client session and gain access to a VPN network, then demonstrated additional post-authentication exploits that resulted in complete takeover of the VPN server. In order to exploit the issue, an attacker can send a malicious HTTP request containing directory traversal sequences along with a crafted Uniform Resource Identifier (URI) and access any file on the device.	"
+      registerLink: "https://docs.google.com/forms/d/1GmfBrK_UkqArJAu2U1acgVbceRWUIuzO2NwmfDNqEGI/"
+      registerLinkname: "Register"
+      presentation:
+        title: "Decoding Multiple Vulnerabilities on Pulse Secure VPN?"
 
 
 
