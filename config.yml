@@ -110,7 +110,7 @@ params:
       registerLink: "https://docs.google.com/forms/d/1yD7ernsDlRfBp6LbH1dBofVqBxw02LnMcKRbJ_R1t8A/"
       registerLinkname: "Register"
       presentation:
-        title: "Exploiting Server-Side Applications"
+        title: "Google VRP BugHunting"
       # link:
       #   href: "http://twitter.com/linus"
       #   text: "@linus"
