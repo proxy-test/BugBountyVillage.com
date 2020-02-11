@@ -106,7 +106,7 @@ params:
   Speakers:
     - name: "Martin Straka"
       photo: "/img/straka.jpg"
-      bio: "Team will cover the Google VRP programs, some interesting facts and new things added this year to our VRP programs and also the best bugs Google received from our researchers community in the last year."
+      bio: "Martin will cover the Google VRP programs, some interesting facts and new things added this year to our VRP programs and also the best bugs Google received from our researchers community in the last year."
       registerLink: "https://docs.google.com/forms/d/1yD7ernsDlRfBp6LbH1dBofVqBxw02LnMcKRbJ_R1t8A/"
       registerLinkname: "Register"
       presentation:
