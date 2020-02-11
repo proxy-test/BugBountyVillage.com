@@ -188,6 +188,14 @@ Exploiting kubernetes cluster (demo)
       presentation:
         title: "Decoding Multiple Vulnerabilities on Pulse Secure VPN?"
 
+    - name: "Shrutirupa Banerjiee"
+      photo: "/img/Shrutirupa.JPG"
+      bio: "Bug bounty is one of the common platform for security researchers to learn and earn more. There are researchers out there who sometimes miss certain domains and cryptography is one such domain which should never be forgotten. The session will talk about the basics of cryptography that a bug bounty hunter has to focus on to find cryptography related flaws. The audience will learn about how a simple cryptography flaw, once ignored, can be manipulated into a vulnerability. The audience will also get to know some common cryptography based exploits to achieve bounties. Meanwhile, the audience will also learn about different vulnerabilities and their exploitations with the help of some exercises that will be provided to them along with the explanation of each vulnerability. Some of the vulnerabilities which will be covered are: JWT misconfigurations openssl based flaws Oracle Padding cbc-ecb mode weak ssl ciphers Heartbleed and many more... The targeted audience is someone who has some basic knowledge in web application security along with having some enthusiasm to learn something different."
+      registerLink: "https://docs.google.com/forms/d/1djD0QzFLYZa52tztDNcYr0b-bg2QNz81YKQznh5ZRtQ/"
+      registerLinkname: "Register"
+      presentation:
+        title: "Crypto for Bounty Hunters"
+
 
 
     # - name: "Praveen Yadav"
