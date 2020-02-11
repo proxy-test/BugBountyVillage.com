@@ -114,6 +114,19 @@ params:
       # link:
       #   href: "http://twitter.com/linus"
       #   text: "@linus"
+    - name: "Andrea"
+      photo: "/img/IMG_20200211_005857.png"
+      bio: "
+The 0day vulnerability market developed over the years in a way that is unsafe, chaotic and rather inefficient. Bad business practices, lack of professionalism and low levels of trust are still spread in this market even today and can seriously hamper the ability of law enforcement and intelligence agencies to acquire and maintain strategic cyber capabilities in order to fight organized crime, terrorism and hostile geopolitical actors. 
+
+Having a deep understanding of these issues and of their solutions, Crowdfense is “hacking the 0day market” in order to improve it for all the parties involved (researchers, customers, brokers, integrators and end users), by introducing new quality standards and best practices related to products, services and to the sustainability of the underlying business processes. 
+
+This session will share how Crowdfense is doing this, why, what are the results, some statistics about the 0day market and what could be the next steps."
+      # registerLink: "https://docs.google.com/forms/d/1yD7ernsDlRfBp6LbH1dBofVqBxw02LnMcKRbJ_R1t8A/"
+      # registerLinkname: "Register"
+      presentation:
+        title: "Hacking the 0day Market"
+
     - name: "Nimisha Dugalya"
       photo: "/img/Nimisha.JPG"
       bio: "The workshop is hands-on white-box testing of a php-based application. Most of the server-side web applications are made up of Php, this workshop will introduce the attendees to some common vulnerabilities in php applications. This session will be a ctf based session where the related challenges will be hosted and the participants who are well ahead of the basic topics can solve them while others catch up. Topics that will be covered in this session are - common php coding mistakes, code reviewing for loopholes, server-side request forgery, deserialization vulnerability.
@@ -195,6 +208,8 @@ Exploiting kubernetes cluster (demo)
       registerLinkname: "Register"
       presentation:
         title: "Crypto for Bounty Hunters"
+
+
 
 
 

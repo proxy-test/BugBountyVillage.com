@@ -22,7 +22,9 @@
       {{ end }}
     </h3>
     <p class="speakers-bios">{{ .bio }}</p>
+    {{ if .registerLinkname }}
     <a class="btn btn-lg" href="{{ .registerLink }}" target="_blank" title="{{ .registerLinkname }}"> {{ .registerLinkname }} </a>
+    {{ end }}
   </li>
 {{ end }}
 </ul>
