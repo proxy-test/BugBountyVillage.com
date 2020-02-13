@@ -22,7 +22,7 @@ params:
   Sections:
     - about
     - cfr
-    - cftw
+    # - cftw
     - awards
     
     - speakers
@@ -123,8 +123,8 @@ The 0day vulnerability market developed over the years in a way that is unsafe, 
 Having a deep understanding of these issues and of their solutions, Crowdfense is “hacking the 0day market” in order to improve it for all the parties involved (researchers, customers, brokers, integrators and end users), by introducing new quality standards and best practices related to products, services and to the sustainability of the underlying business processes. 
 
 This session will share how Crowdfense is doing this, why, what are the results, some statistics about the 0day market and what could be the next steps."
-      # registerLink: "https://docs.google.com/forms/d/1yD7ernsDlRfBp6LbH1dBofVqBxw02LnMcKRbJ_R1t8A/"
-      # registerLinkname: "Register"
+      registerLink: "https://docs.google.com/forms/d/1ieWfsOLWQrb-qqy6AnteQZMCSECfHsdAhNH8svtZ7qs/"
+      registerLinkname: "Register"
       presentation:
         title: "Hacking the 0day Market"
 
@@ -143,6 +143,9 @@ After the session participants will have a clear understanding of how to analyze
     - name: "Amol Naik"
       photo: "/img/Amol-Naik1.jpg"
       bio: "This workshop focuses on the fuzzing softwares for bugs which will cover various techniques, tools & analysis techniques starting from file fuzzers till browser fuzzing."
+      
+      registerLink: "https://docs.google.com/forms/d/1W2TPArTX3x46jziylOA8tEoQ4f1S-y7UuyJdaq8nVDI/"
+      registerLinkname: "Register"
       presentation:
         title: "Fuzzing softwares for Bugs"
       # link:
@@ -209,7 +212,17 @@ Exploiting kubernetes cluster (demo)
         title: "Crypto for Bounty Hunters"
 
 
-
+    - name: "Narendra"
+      photo: "/img/Narendra.jpeg"
+      bio: "Ever wished to have a virtual machine with tools for security testing of Android as well as iOS applications. Well, Mobexler is a mobile pentest VM that includes a wide variety of tools to help in Android and iOS pentesting. It includes tools for both static and dynamic analysis of applications, allowing pentesters to use a single virtual machine setup and perform pentest of Android and iOS applications, both.  Based on elementary OS, Mobexler provides an awesome UI experience and allows for intuitive usage of tools just like you would on a host install. External devices like iPhone/iPad/Android devices can also be connected via USB or over TCP and can be used to perform security testing on applications.
+more details http://mobexler.com/"
+      registerLink: "https://docs.google.com/forms/d/11kp_MRnOz0MQOBd9osRbtUPK3IKyMNx9r2FbcXqo8wg/"
+      registerLinkname: "Register"
+      presentation:
+        title: "Mobexler: AIO Mobile Pentest VM"
+      # link:
+      #   href: "http://twitter.com/linus"
+      #   text: "@linus"
 
 
     # - name: "Praveen Yadav"
