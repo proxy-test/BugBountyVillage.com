@@ -1,6 +1,20 @@
 <h2 class="section-title">{{ .titles.awards }}</h2>
 
-<p itemprop="description">
+<h4 class="headeing">Congratulation to all the winners</h3>
+	<div class="awards-list">
+		{{ range $team := .award }}
+		
+		<div data-aos="zoom-in"class="awards-container ">
+			<img class="awards-photo" src="{{ .logo }}" alt="{{ .name }}" itemprop="image">
+			<p class="speakers-bio">{{ .name }}</p>
+			<p class="speakers-bio">{{ .bio }}</p>
+		</div>
+		
+	
+		{{ end }}
+	</div>
+
+<!-- <p itemprop="description">
 We will be presenting awards to top bug bounty hunters who have reported amazing security issues. We know we will be witnessing the most creative talent nationwide. This isn’t just challenging but an actual opportunity for you to connect with security experts, architects and mentors from leading tech companies.
 <br>
 <br>
@@ -20,19 +34,31 @@ Each and every submission will be verified by our judging panel who possess a co
 	<li>Hak5 Gears</li>
 	<li>Pentesterlab Pro Subscription</li>
 	<li>Unique Swags</li>
-</ol>
+</ol> -->
 <!-- <p>	Get reward on your report submission.</p> -->
 
-<p><b>Note : Kindly submit your reports in the call for reports section, awards will be given at the conference only.</b></p>
+<!-- <p><b>Note : Kindly submit your reports in the call for reports section, awards will be given at the conference only.</b></p> -->
 
 
 <style>
-.award-list{
+	.headeing{
+		text-align: center;
+	}
+.awards-list{
 	/* font-size: normal; */
 	/* list-style-type: circle; */
-	font-size: 1.6em;
-	line-height: 1.6em;
-	margin-left: 10px;
-	margin-left: 2rem;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 40%);
+}
+.awards-container{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.awards-photo{
+	width: 90%;
+    height: 90%;
 }
 </style>
