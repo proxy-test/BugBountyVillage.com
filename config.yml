@@ -28,7 +28,8 @@ params:
     - speakers
     - review
     - teams
-    - schedule
+    # - schedule
+    - gallery
     - sponsors
     - location
     #- partners
@@ -45,6 +46,7 @@ params:
     awards: "Awards"
     speakers: "Speakers"
     teams: "Team"
+    gallery: "Gallery"
     review: "Review Committee"
 #     schedule: "CTF"
     sponsors: "Sponsors"
