@@ -5,6 +5,8 @@ theme: "hugo-conference"
 
 googleAnalytics: ""
 
+uglyurls: true
+
 
 params:
   # Conference info
@@ -276,14 +278,14 @@ more details http://mobexler.com/"
   Award:
     - name: "Rahul Kankrale"
       bio: "Unique Bug of the Year & XBOX"
-      logo: "/img/rahul.jpg"
+      logo: "/img/rahul.JPG"
     - name: "Arun Mishra"
       bio: "Hak 5 Gadget"
-      logo: "/img/Arun.jpg"
+      logo: "/img/Arun.JPG"
     - name: "Devisha Rochlani"
       bio: "Pentester Lab"
       logo: "/img/Devisha Rochlani.jpeg"
 
     - name: "Sunita"
       bio: "Pentester Lab"
-      logo: "/img/sunita.jpg"
+      logo: "/img/sunita.JPG"
